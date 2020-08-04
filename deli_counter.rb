@@ -25,7 +25,7 @@ end
 def now_serving(deli)
   if deli.length >=1 
     puts "Currently serving #{deli.first}."
-    deli.pop
+    deli.shift
   else 
     puts "There is nobody waiting to be served!"
   end
