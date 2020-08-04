@@ -15,10 +15,10 @@ end
 def take_a_number(deli,name)
   if deli.length >= 1
     deli << name 
-    line(deli)
+    puts "Welcome, Grace. You are number in line."
   else 
     deli << name 
-    "Welcome, #{name}. You are number 1 in line."
+    puts "Welcome, #{name}. You are number 1 in line."
   end
 end
 
