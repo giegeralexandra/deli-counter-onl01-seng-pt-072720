@@ -13,7 +13,7 @@ def line(deli)
 end
 
 def take_a_number(deli,name)
-  if deli.lentgh >= 1
+  if deli.length >= 1
     deli << name 
     line(deli)
   else 
