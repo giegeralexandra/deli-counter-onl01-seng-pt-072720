@@ -3,10 +3,11 @@ def line(deli)
     new_deli = []
     counter = 1
     deli.each do |name|
-      puts "#{counter}. name "
+      new_deli << "#{counter}. name"
       counter +=1
     end
-    puts "The line is currently: #{deli_line}"
+    new_deli.join " "
+    puts "The line is currently: #{new_deli}"
   else 
     puts "The line is currently empty."
   end
