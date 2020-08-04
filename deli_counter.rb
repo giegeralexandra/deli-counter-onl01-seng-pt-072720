@@ -15,7 +15,7 @@ end
 def take_a_number(deli,name)
   if deli.length >= 1
     deli << name 
-    puts "Welcome, Grace. You are number in line."
+    puts "Welcome, Grace. You are number #{deli.length} in line."
   else 
     deli << name 
     puts "Welcome, #{name}. You are number 1 in line."
