@@ -1,8 +1,8 @@
 def line(deli)
-  if deli.length <1
+  if deli.length >=1 
+    return "The line is currently: "
+  else 
     return "The line is currently empty."
-  else
-    return "The line is currently: #{array(0..-1).join} and #{array[-1]}"
   end
 end
 
