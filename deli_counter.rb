@@ -12,8 +12,8 @@ def line(deli)
   end
 end
 
-def take_a_number(array,name)
-  
+def take_a_number(deli,name)
+  deli << name 
 end
 
 def now_serving(array)
