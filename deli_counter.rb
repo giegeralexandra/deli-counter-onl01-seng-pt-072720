@@ -18,6 +18,7 @@ def take_a_number(deli,name)
     line(deli)
   else 
     deli << name 
+    "Welcome, #{name}. You are number 1 in line."
   end
 end
 
