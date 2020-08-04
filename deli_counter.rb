@@ -1,6 +1,8 @@
 def line(deli)
   if deli.length >=1 
-    counter = 1+=
+    loop do 
+  
+      counter = 1
     deli_line = deli.join "#{counter}"
     puts "The line is currently: #{deli_line}"
   else 
