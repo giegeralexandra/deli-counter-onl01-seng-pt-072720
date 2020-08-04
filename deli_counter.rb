@@ -13,7 +13,11 @@ def line(deli)
 end
 
 def take_a_number(deli,name)
-  deli << name 
+  if deli.lentgh >= 1
+    deli << name 
+    line(deli)
+  else 
+    deli << name 
 end
 
 def now_serving(array)
