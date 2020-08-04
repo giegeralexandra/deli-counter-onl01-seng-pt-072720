@@ -1,6 +1,6 @@
 def line(deli)
   if deli.length >=1 
-    loop do 
+    deli_line = ""; 
   
       counter = 1
     deli_line = deli.join "#{counter}"
