@@ -1,7 +1,8 @@
 def line(deli)
   if deli.length >=1 
+    new_array = []
     counter = 1
-    deli_line = deli.join "#{counter+=1}. "
+    new_array = 
     puts "The line is currently: #{deli_line}"
   else 
     puts "The line is currently empty."
