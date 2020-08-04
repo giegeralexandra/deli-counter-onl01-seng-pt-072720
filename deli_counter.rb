@@ -1,6 +1,7 @@
 def line(deli)
   if deli.length >=1 
-    puts "The line is currently: "
+    deli_line = deli.join " "
+    puts "The line is currently: ${ "
   else 
     puts "The line is currently empty."
   end
