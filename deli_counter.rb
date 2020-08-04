@@ -18,6 +18,7 @@ def take_a_number(deli,name)
     line(deli)
   else 
     deli << name 
+  end
 end
 
 def now_serving(array)
