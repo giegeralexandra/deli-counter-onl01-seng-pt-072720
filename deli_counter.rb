@@ -22,5 +22,10 @@ def take_a_number(deli,name)
   end
 end
 
-def now_serving(array)
+def now_serving(deli)
+  if deli >=1 
+    puts "#{deli.first}"
+    deli.pop
+  else 
+    puts "There in nobody waiting to be served!"
 end
