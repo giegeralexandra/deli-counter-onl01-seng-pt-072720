@@ -1,8 +1,8 @@
 def line(deli)
   if deli.length >=1 
-    return "The line is currently: "
+    puts "The line is currently: "
   else 
-    return "The line is currently empty."
+    puts "The line is currently empty."
   end
 end
 
