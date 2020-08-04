@@ -1,8 +1,11 @@
 def line(deli)
   if deli.length >=1 
-    new_array = []
+    new_deli = []
     counter = 1
-    new_array = 
+    deli.each do |name|
+      puts "#{counter}. name "
+      counter +=1
+    end
     puts "The line is currently: #{deli_line}"
   else 
     puts "The line is currently empty."
