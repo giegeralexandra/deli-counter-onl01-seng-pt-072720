@@ -28,4 +28,5 @@ def now_serving(deli)
     deli.pop
   else 
     puts "There in nobody waiting to be served!"
+  end
 end
